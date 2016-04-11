@@ -1,0 +1,21 @@
+---
+en:
+  spree:
+    mercury:
+      already_refunded: "This payment has been refunded and no further action can be taken on it."
+      no_payment_via_admin_backend: "You cannot charge Mercury accounts through the admin backend at this time."
+      transaction: "Mercury Transaction"
+      payer_id: "Payer ID"
+      transaction_id: "Transaction ID"
+      token: "Token"
+      refund: "Refund"
+      refund_amount: "Amount"
+      original_amount: "Original amount: %{amount}"
+      refund_successful: "Mercury refund successful"
+      refund_unsuccessful: "Mercury refund unsuccessful"
+      actions:
+        refund: "Refund"
+      flash:
+        cancel: "Don't want to use Mercury? No problems."
+        connection_failed: "Could not connect to Mercury."
+        generic_error: "Mercury failed. %{reasons}"

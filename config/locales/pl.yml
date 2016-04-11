@@ -1,0 +1,21 @@
+---
+pl:
+  spree:
+    mercury:
+      already_refunded: "Ta płatność została zwrócona i nie można wykonywać na niej kolejnych akcji"
+      no_payment_via_admin_backend: "Aktualnie nie można obciążać konto Mercury z poziomu panelu administracyjnego."
+      transaction: "Tranzakcja Mercury"
+      payer_id: "Identyfikator Płatnika"
+      transaction_id: "Identyfikator Tranzakcji"
+      token: "Token"
+      refund: "Zwrot"
+      refund_amount: "Kwota zwrotu"
+      original_amount: "Oryginalna kwota: %{amount}"
+      refund_successful: "Zwrot Mercury zakończony sukcesem"
+      refund_unsuccessful: "Błąd podczas wykonywania zwrotu Mercury"
+      actions:
+        refund: "Zwróć Płatność"
+      flash:
+        cancel: "Nie chceż użyć Mercury? Nie ma problemu."
+        connection_failed: "Nie można było połączyć się z usługą Mercury."
+        generic_error: "Tranzakcja Mercury nie powiodła się. %{reasons}"

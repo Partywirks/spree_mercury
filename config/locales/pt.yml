@@ -1,0 +1,21 @@
+---
+pt:
+  spree:
+    mercury:
+      already_refunded: "Este pagamento já foi reembolsado pelo que nenhuma acção pode ser executada sobre este."
+      no_payment_via_admin_backend: "Não é possível cobrar contas de Mercury através do administrador neste momento."
+      transaction: "Transacção de Mercury"
+      payer_id: "Payer ID (identificação do comprador)"
+      transaction_id: "Transaction ID (identificação da transacção)"
+      token: "Token"
+      refund: "Reembolso"
+      refund_amount: "Quantidade"
+      original_amount: "Quantidade original: %{amount}"
+      refund_successful: "Reembolso de Mercury efectuado com sucesso"
+      refund_unsuccessful: "Não foi possível reembolsar o pagamento de Mercury"
+      actions:
+        refund: "Reembolso"
+      flash:
+        cancel: "Não pretende usar Mercury? Não há problema."
+        connection_failed: "Não foi possível estabelecer ligação com o Mercury."
+        generic_error: "Mercury não funcionou. %{reasons}"
